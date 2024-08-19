@@ -1,0 +1,19 @@
+Liga WRL del Repositorio
+https://github.com/MiRepositorioVMA/Primer-repositorio.git
+
+Lista de comandos para crear repositorio
+echo "# Primer-repositorio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MiRepositorioVMA/Primer-repositorio.git
+git push -u origin main
+
+Lista de comandos para actualizar repositorio
+git add README.md
+git commit -m "first commit"
+git push -u origin main
+
+git config --global user.email "vero_ma2829@hotmail.com"
+git config --global user.name "MiRepositorioVMA"
